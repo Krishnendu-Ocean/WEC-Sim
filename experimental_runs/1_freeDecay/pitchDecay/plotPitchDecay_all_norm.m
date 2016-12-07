@@ -99,5 +99,7 @@ xlabel('t [s]')
 ylabel('\theta/\theta_o')
 xlim([-0.5 8])
 leg = [{'Exp'};{'Linear'};{'NonLinear'}];
-legend([h1 h2 h3],leg,'location','northeast')
+% legend([h1 h2 h3],leg,'location','northeast')
+
+legend(leg,'location','northeast')
 savefig('pitchDecay_norm_WS_Comp.fig')

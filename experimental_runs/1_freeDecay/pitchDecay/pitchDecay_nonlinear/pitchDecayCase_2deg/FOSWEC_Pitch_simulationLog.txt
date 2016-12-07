@@ -1,15 +1,10 @@
 wecSimMCR Case 1
 
 WEC-Sim Read Input File ...   
-
-phi =
-
-     2
-
-Elapsed time is 58.151640 seconds.
+Elapsed time is 17.251099 seconds.
 
 WEC-Sim Pre-processing ...   
-Elapsed time is 1.426173 seconds.
+Elapsed time is 0.345458 seconds.
 
 WEC-Sim Simulation Settings:
 	Start Time                     (sec) = 0
@@ -58,7 +53,7 @@ List of Constraint(s): Number of Constraints = 7
 
 
 Simulating the WEC device defined in the SimMechanics model FOSWEC_Pitch.slx...   
-Elapsed time is 57.381772 seconds.
+Elapsed time is 24.158817 seconds.
 
 Post-processing and saving...   
-Elapsed time is 5.897974 seconds.
+Elapsed time is 0.127765 seconds.

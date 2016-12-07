@@ -7,12 +7,14 @@ simu=simulationClass();
 simu.simMechanicsFile = 'FOSWEC.slx';
 simu.rampT = 5;
 simu.endTime = 15;
-simu.dt = 0.01;
+% simu.dt = 0.01;
 % simu.nlHydro = 1;
 simu.mode = 'normal';
 simu.explorer = 'on';
 simu.domainSize = 2;
 simu.CITime=15;
+% simu.solver = 'ode45';
+% simu.dtMax = 0.01;
 
 
 %% Wave Information

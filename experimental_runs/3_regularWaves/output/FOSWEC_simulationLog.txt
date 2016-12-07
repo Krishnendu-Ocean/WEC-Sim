@@ -1,51 +1,40 @@
 
 WEC-Sim Read Input File ...   
-Elapsed time is 6.771998 seconds.
+Elapsed time is 15.738010 seconds.
 
 WEC-Sim Pre-processing ...   
-Elapsed time is 0.224646 seconds.
+Elapsed time is 0.141499 seconds.
 
 WEC-Sim Simulation Settings:
-	Time Marching Solver                 = Fourth-Order Runge-Kutta Formula 
 	Start Time                     (sec) = 0
-	End Time                       (sec) = 40
+	End Time                       (sec) = 15
 	Time Step Size                 (sec) = 0.01
-	Ramp Function Time             (sec) = 20
-	Total Number of Time Step            = 4000 
+	Ramp Function Time             (sec) = 5
+	Total Number of Time Step            = 1500 
 
 Wave Environment: 
-	Wave Type                            = Regular Waves (Sinusoidal Steady-State)
-	Wave Height H (m)                    = 0.05
-	Wave Period T (sec)                  = 2
+	Wave Type                            = No Wave (Convolution Integral Calculation)
 
 List of Body: Number of Bodies = 3 
 
-	***** Body Number 0, Name: body1 *****
-	Body CG                          (m) = [-0,0,-0.156]
-	Body Mass                       (kg) = 79.4372 
-	Body Diagonal MOI              (kgm2)= [57.0431,47.211,66.2529]
-
-	***** Body Number 1, Name: body2 *****
-	Body CG                          (m) = [-0.65,0,-0.338]
-	Body Mass                       (kg) = 13.5205 
-	Body Diagonal MOI              (kgm2)= [2.3664,1.0264,1.3736]
-
-	***** Body Number 2, Name: body3 *****
+	***** Body Number 0, Name: flap2 *****
 	Body CG                          (m) = [0.65,0,-0.338]
-	Body Mass                       (kg) = 13.5205 
-	Body Diagonal MOI              (kgm2)= [2.3664,1.0264,1.3736]
+	Body Mass                       (kg) = 23.1 
+	Body Diagonal MOI              (kgm2)= [1.58,1.62,1.25]
 
-List of PTO(s): Number of PTOs = 2 
+	***** Body Number 1, Name: flap1 *****
+	Body CG                          (m) = [-0.65,0,-0.338]
+	Body Mass                       (kg) = 23.1 
+	Body Diagonal MOI              (kgm2)= [1.42,1.19,1.99]
 
-	***** PTO Name: PTO_flap1 *****
-	PTO Stiffness           (N/m;Nm/rad) = 0
-	PTO Damping           (Ns/m;Nsm/rad) = 0
+	***** Body Number 2, Name: platform *****
+	Body CG                          (m) = [0,0,-0.156]
+	Body Mass                       (kg) = 153.8 
+	Body Diagonal MOI              (kgm2)= [37.88,29.63,66.2529]
 
-	***** PTO Name: PTO_flap2 *****
-	PTO Stiffness           (N/m;Nm/rad) = 0
-	PTO Damping           (Ns/m;Nsm/rad) = 0
+List of PTO(s): No PTO in the system
 
-List of Constraint(s): Number of Constraints = 5 
+List of Constraint(s): Number of Constraints = 7 
 
 	***** Constraint Name: rectangle_fixed *****
 
@@ -57,9 +46,13 @@ List of Constraint(s): Number of Constraints = 5
 
 	***** Constraint Name: arm_floor *****
 
+	***** Constraint Name: PTO_flap1 *****
+
+	***** Constraint Name: PTO_flap2 *****
+
 
 Simulating the WEC device defined in the SimMechanics model FOSWEC.slx...   
-Elapsed time is 11.117867 seconds.
+Elapsed time is 16.857683 seconds.
 
 Post-processing and saving...   
-Elapsed time is 0.036673 seconds.
+Elapsed time is 0.115658 seconds.

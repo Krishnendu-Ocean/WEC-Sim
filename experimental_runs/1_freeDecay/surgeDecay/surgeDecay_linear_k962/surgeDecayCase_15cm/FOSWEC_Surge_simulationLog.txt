@@ -1,144 +1,12 @@
 wecSimMCR Case 3
 
 WEC-Sim Read Input File ...   
-
-body = 
-
-  1x7 <a href="matlab:helpPopup bodyClass" style="font-weight:bold">bodyClass</a> array with properties:
-
-    hydroData
-    name
-    mass
-    momOfInertia
-    cg
-    dispVol
-    geometryFile
-    viscDrag
-    initDisp
-    linearDamping
-    userDefinedExcIRF
-    viz
-    morrisonElement
-    nhBody
-    bodyGeometry
-    hydroForce
-    h5File
-    hydroDataBodyNum
-    bemioFlag
-    massCalcMethod
-    bodyNumber
-    bodyTotal
-    lenJ
-
-
-body = 
-
-  1x7 <a href="matlab:helpPopup bodyClass" style="font-weight:bold">bodyClass</a> array with properties:
-
-    hydroData
-    name
-    mass
-    momOfInertia
-    cg
-    dispVol
-    geometryFile
-    viscDrag
-    initDisp
-    linearDamping
-    userDefinedExcIRF
-    viz
-    morrisonElement
-    nhBody
-    bodyGeometry
-    hydroForce
-    h5File
-    hydroDataBodyNum
-    bemioFlag
-    massCalcMethod
-    bodyNumber
-    bodyTotal
-    lenJ
-
-
-body = 
-
-  1x7 <a href="matlab:helpPopup bodyClass" style="font-weight:bold">bodyClass</a> array with properties:
-
-    hydroData
-    name
-    mass
-    momOfInertia
-    cg
-    dispVol
-    geometryFile
-    viscDrag
-    initDisp
-    linearDamping
-    userDefinedExcIRF
-    viz
-    morrisonElement
-    nhBody
-    bodyGeometry
-    hydroForce
-    h5File
-    hydroDataBodyNum
-    bemioFlag
-    massCalcMethod
-    bodyNumber
-    bodyTotal
-    lenJ
-
-
-body = 
-
-  1x7 <a href="matlab:helpPopup bodyClass" style="font-weight:bold">bodyClass</a> array with properties:
-
-    hydroData
-    name
-    mass
-    momOfInertia
-    cg
-    dispVol
-    geometryFile
-    viscDrag
-    initDisp
-    linearDamping
-    userDefinedExcIRF
-    viz
-    morrisonElement
-    nhBody
-    bodyGeometry
-    hydroForce
-    h5File
-    hydroDataBodyNum
-    bemioFlag
-    massCalcMethod
-    bodyNumber
-    bodyTotal
-    lenJ
-
-
-mooring = 
-
-  <a href="matlab:helpPopup mooringClass" style="font-weight:bold">mooringClass</a> with properties:
-
-               name: 'bungees'
-                ref: [0 0 0]
-             matrix: [1x1 struct]
-           initDisp: [1x1 struct]
-       moorDynLines: 0
-                loc: []
-         mooringNum: []
-            moorDyn: 0
-    moorDynInputRaw: []
-
-Elapsed time is 10.550619 seconds.
+Elapsed time is 0.348536 seconds.
 
 WEC-Sim Pre-processing ...   
-Elapsed time is 0.066724 seconds.
+Elapsed time is 0.090847 seconds.
 
 WEC-Sim Simulation Settings:
-	Time Marching Solver                 = Fourth-Order Runge-Kutta Formula 
 	Start Time                     (sec) = 0
 	End Time                       (sec) = 10
 	Time Step Size                 (sec) = 0.05
@@ -185,7 +53,7 @@ List of Constraint(s): Number of Constraints = 7
 
 
 Simulating the WEC device defined in the SimMechanics model FOSWEC_Surge.slx...   
-Elapsed time is 6.980895 seconds.
+Elapsed time is 9.512958 seconds.
 
 Post-processing and saving...   
-Elapsed time is 0.021085 seconds.
+Elapsed time is 0.028584 seconds.
